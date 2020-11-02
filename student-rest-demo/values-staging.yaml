@@ -40,7 +40,7 @@ ingress:
     kubernetes.io/ingress.class: nginx-tb-all
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: student-demo.tb.you.co
+    - host: student-demo.staging.tb.you.co
       paths: ["/"]
   tls: []
   #  - secretName: chart-example-tls
@@ -72,4 +72,4 @@ mysql:
   mysqlPassword: "123456"
   mysqlRootPassword: "123456"
   mysqlDatabase: "students"
-  mysqlHost: "mysql.prod.svc"
+  mysqlHost: "mysql.app.svc"
