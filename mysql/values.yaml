@@ -21,13 +21,13 @@ testFramework:
 ## Specify password for root user
 ##
 ## Default: random 10 character string
-# mysqlRootPassword: "password"
+mysqlRootPassword: "123456"
 
 ## Create a database user
 ##
-#mysqlUser:
+mysqlUser: demo
 ## Default: random 10 character string
-#mysqlPassword:
+mysqlPassword: "123456"
 
 ## Allow unauthenticated access, uncomment to enable
 ##
@@ -35,7 +35,7 @@ testFramework:
 
 ## Create a database
 ##
-# mysqlDatabase: students
+mysqlDatabase: students
 
 ## Specify an imagePullPolicy (Required)
 ## It's recommended to change this to 'Always' if the image tag is 'latest'
