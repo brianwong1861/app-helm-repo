@@ -72,4 +72,4 @@ mysql:
   mysqlPassword: "123456"
   mysqlRootPassword: "123456"
   mysqlDatabase: "students"
-  mysqlHost: "mysql.app.svc"
+  mysqlHost: "mysql.prod.svc"
