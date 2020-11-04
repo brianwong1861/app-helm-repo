@@ -7,7 +7,7 @@ image:
   repository: brianwong1861/student-rest-demo
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 17db38c
+  tag: 1d07d4a
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
