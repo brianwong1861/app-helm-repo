@@ -40,7 +40,7 @@ ingress:
     kubernetes.io/ingress.class: nginx-tb-all
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: student-demo.tb.you.co
+    - host: student-demo.9upla.com
       paths: ["/"]
   tls: []
   #  - secretName: chart-example-tls
